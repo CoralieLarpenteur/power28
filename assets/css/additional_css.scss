@@ -1,0 +1,70 @@
+$dark_bleu:#002151;
+$light_bleu:#527BBD;
+$black:#161616;
+$dark_grey:#808080;
+$grey:#F9F9F9;
+$white:#FFFFFF;
+
+.noMargin{
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.noPadding{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.bouton{
+  white-space: normal;
+  font-size: 25px;
+  width:100%;
+  font-family: 'Raleway', Verdana, Arial, sans-serif;
+  color:$white;
+  background-color:$light_bleu;
+  padding:15px 0px 15px 0px
+}
+.text, a, h1, h2, h3, h4, h5, h6, p, div, span, th, td, tr{
+  font-family: 'Raleway', Verdana, Arial, sans-serif;
+}
+.dark_bleu{
+  color:$dark_bleu;
+}
+.light_bleu{
+  color:$light_bleu;
+}
+.black{
+  color:$black;
+}
+.grey{
+  color:$grey;
+}
+.back_grey{
+  background-color:$grey
+}
+.dark_grey{
+  color:$dark_grey;
+}
+.white{
+  color:$white;
+}
+.center{
+  text-align:center;
+}
+.justify{
+  text-align: justify;
+}
+.left{
+  text-align:left;
+}
+.right{
+  text-align:right;
+}
+a, button{
+  text-decoration: none;
+}
+#tutoReverse{
+  flex-direction: row-reverse;
+}
