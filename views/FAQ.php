@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <?php require_once 'tools/head.php'; ?>
-    <title>FAQ</title>
-  </head>
-  <body>
-    <?php require_once 'tools/nav.php'; ?>
-
     <h2 class="center">FAQ</h2>
 
     <div class="row noMargin justify-content-center">
@@ -49,13 +40,3 @@
         </form>
       </div>
     </div>
-
-
-
-
-
-
-
-<?php require_once 'tools/footer.php'; ?>
-  </body>
-</html>

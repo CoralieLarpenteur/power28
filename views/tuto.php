@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <?php require_once 'tools/head.php'; ?>
-    <title></title>
-  </head>
-  <body>
-    <?php require_once 'tools/nav.php'; ?>
-
       <?php foreach ($tutos as $key => $tuto): ?>
         <div class="row noMargin tuto<?php echo $tuto['reverse'] ?>">
           <div class="col-8">
@@ -20,7 +11,3 @@
       <?php endforeach; ?>
 
     <?php require_once 'tools/footer.php'; ?>
-
-
-  </body>
-</html>

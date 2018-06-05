@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>power 28</title>
-    <?php require_once 'tools/head.php'; ?>
-  </head>
-  <body>
-    <?php require_once 'tools/nav.php'; ?>
     <div class="row noMargin">
       <div class="col-12" style="background-image: url(assets/img/img1.jpg);background-size: cover;background-repeat: no-repeat;">
         <div class="row noMargin">
@@ -122,8 +114,3 @@
         <button type="button" class="btn bouton center">voir tout</button>
       </div>
     </div>
-
-
-    <?php require_once 'tools/footer.php'; ?>
-  </body>
-</html>

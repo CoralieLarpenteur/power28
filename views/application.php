@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <?php require_once 'tools/head.php'; ?>
-    <title></title>
-  </head>
-  <body>
-    <?php require_once 'tools/nav.php'; ?>
       <div class="row noMargin">
         <div class="col-7">
           <img class="img-fluid" style="margin:30px 0px 30px 0px" src="assets/img/Power28-accueil(3).png" alt="home page application">
@@ -92,11 +84,6 @@
         </div>
       </div>
 
-
-
-
-    <?php require_once 'tools/footer.php'; ?>
-
     <script>
     function myFunction() {
         var x = document.getElementById("Check1").checked;
@@ -112,5 +99,3 @@
         }
     }
     </script>
-  </body>
-</html>

@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>power 28</title>
+    <?php require_once 'tools/head.php'; ?>
+  </head>
+  <body>
+    <?php require_once 'tools/nav.php'; ?>
+
 <?php
 require_once('common.php');
 $db = dbConnect();
@@ -18,3 +27,7 @@ if (isset($_GET['page'])) {
 }
 
  ?>
+
+ <?php require_once 'tools/footer.php'; ?>
+</body>
+</html>
