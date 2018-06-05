@@ -1,12 +1,39 @@
-<div class="row noMargin"style="background-color:#002151; width:100%">
+<div class="row noMargin footer">
   <div class="col-4 center" style="margin:30px 0px 30px 0px">
     <img src="assets/img/logo_background_black.png" alt="logo" style="width:150px; height:auto">
   </div>
-  <div class="col-4 center">
+  <div class="col-4">
 
   </div>
-  <div class="col-4 center">
+  <div class="col-4 white">
+    <h3><a href="#" class="white">Contact</a></h3>
+    <div class="back_white" style="width:50%; min-width:103px; height:1px; margin-bottom:10px"></div>
+    <div class="row noMargin justify-content-right">
+      <div class="col-2">
+        <img src="assets/img/phone.png" alt="" style="width:40px; margin-bottom:15px">
+      </div>
+      <div class="col-10">
+        <p>+33 782 780 350</p>
+      </div>
+    </div>
+    <div class="row noMargin">
+      <div class="col-2">
+        <img src="assets/img/place.png" alt="" style="width:40px;">
+      </div>
+      <div class="col-10">
+        <p>54 rue custine<br/>75018 </p>
+      </div>
+    </div>
+    <div class="row noMargin">
+      <div class="col-2">
+        <img src="assets/img/envelope.png" alt="" style="width:40px;">
+      </div>
+      <div class="col-10">
+        <p>contact@power28.com</p>
+      </div>
 
+
+    </div>
   </div>
 </div>
 

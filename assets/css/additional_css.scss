@@ -50,6 +50,9 @@ $white:#FFFFFF;
 .white{
   color:$white;
 }
+.back_white{
+  background-color:$white
+}
 .center{
   text-align:center;
 }
@@ -62,9 +65,13 @@ $white:#FFFFFF;
 .right{
   text-align:right;
 }
-a, button{
+a, button, a:hover{
   text-decoration: none;
+  color: inherit;
 }
-#tutoReverse{
+.tutoReverse{
   flex-direction: row-reverse;
+}
+.footer{
+  background-color:#002151;
 }

@@ -73,45 +73,45 @@
       </div>
     </div>
     <div class="row noMargin" style=" margin:30px">
-      <div class="col-4 center" style="padding:0px 100px 0px 100px;">
+      <div class="col-lg-4 col-md-12 center" style="padding:0px 100px 0px 100px;">
         <img src="assets/img/QR-code.png" alt="QR code" style="width:150px; height:auto;">
         <H5 class="light_bleu">réaliser des entrées et sorties à l'aide de scan par QR-Code</H5>
       </div>
-      <div class="col-4 center" style="padding:0px 100px 0px 100px;">
+      <div class="col-lg-4 col-md-12 center" style="padding:0px 100px 0px 100px;">
         <img src="assets/img/commande.png" alt="commande" style="width:150px; height:auto;">
         <H5 class="light_bleu">gérer les commandes auprès de vos fournisseurs </H5>
       </div>
-      <div class="col-4 center" style="padding:0px 100px 0px 100px;">
+      <div class="col-lg-4 col-md-12 center" style="padding:0px 100px 0px 100px;">
         <img src="assets/img/category.png" alt="category" style="width:150px; height:auto;">
         <H5 class="light_bleu">catégorisation, des fabricants, des fournisseurs et des lieux</H5>
       </div>
     </div>
     <div class="row noMargin back_grey">
-      <div class="col-4 center" style="margin-top:30px;padding:0px 150px 0px 150px;">
+      <div class="col-lg-4 col-md-12 center" style="margin-top:30px;padding:0px 150px 0px 150px;">
         <img src="assets/img/ordi-portable.png" alt="ordi-portable" style="width:150px; height:auto;">
         <H5 class="dark_bleu">compatible avec Mac PC ou tablette</H5>
       </div>
-      <div class="col-4 center" style="margin-top:30px;padding:0px 150px 0px 150px;">
+      <div class="col-lg-4 col-md-12 center" style="margin-top:30px;padding:0px 150px 0px 150px;">
         <img src="assets/img/livre-encoche.png" alt="livre-encoche" style="width:150px; height:auto;">
         <H5 class="dark_bleu">simple et facile d’utilisation</H5>
       </div>
-      <div class="col-4 center" style="margin-top:30px;padding:0px 150px 0px 150px;">
+      <div class="col-lg-4 col-md-12 center" style="margin-top:30px;padding:0px 150px 0px 150px;">
         <img src="assets/img/eyes.png" alt="oeuil" style="width:150px; height:auto;">
         <H5 class="dark_bleu">visualitaion rapide des produits et des commandes</H5>
       </div>
     </div>
     <div class="row noMargin justify-content-center" style="margin-top:30px;">
-      <div class="col-4 justify" style="padding:0px 100px 0px 100px">
+      <div class="col-lg-4 col-md-12 justify" style="padding:0px 100px 0px 100px">
         <img src="assets/img/logo-carefour.png" alt="logo carefour" style="display:inline; width:70px">
         <h3 style="display:inline">commentaire n°1</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis efficitur ligula, vel ultricies ante. Pellentesque a nisl eu ipsum fermentum imperdiet at vel nulla. Proin blandit et elit sit amet tempor. Pellentesque efficitur volutpat vehicula. Nullam a dui vel magna placerat euismod.</p>
       </div>
-      <div class="col-4 justify" style="padding:0px 100px 0px 100px">
+      <div class="col-lg-4 col-md-12 justify" style="padding:0px 100px 0px 100px">
         <img src="assets/img/logo-carefour.png" alt="logo carefour" style="display:inline; width:70px">
         <h3 style="display:inline">commentaire n°2</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis efficitur ligula, vel ultricies ante. Pellentesque a nisl eu ipsum fermentum imperdiet at vel nulla.</p>
       </div>
-      <div class="col-4 justify" style="padding:0px 100px 0px 100px">
+      <div class="col-lg-4 col-md-12 justify" style="padding:0px 100px 0px 100px">
         <img src="assets/img/logo-carefour.png" alt="logo carefour" style="display:inline; width:70px">
         <h3 style="display:inline">commentaire n°3</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis efficitur ligula, vel ultricies ante. Pellentesque a nisl eu ipsum fermentum imperdiet at vel nulla. Proin blandit et elit sit amet tempor. </p>

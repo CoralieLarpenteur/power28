@@ -66,34 +66,45 @@
 }
 
 /* line 53, additional_css.scss */
+.back_white {
+  background-color: #FFFFFF;
+}
+
+/* line 56, additional_css.scss */
 .center {
   text-align: center;
 }
 
-/* line 56, additional_css.scss */
+/* line 59, additional_css.scss */
 .justify {
   text-align: justify;
 }
 
-/* line 59, additional_css.scss */
+/* line 62, additional_css.scss */
 .left {
   text-align: left;
 }
 
-/* line 62, additional_css.scss */
+/* line 65, additional_css.scss */
 .right {
   text-align: right;
 }
 
-/* line 65, additional_css.scss */
-a, button {
+/* line 68, additional_css.scss */
+a, button, a:hover {
   text-decoration: none;
+  color: inherit;
 }
 
-/* line 68, additional_css.scss */
-#tutoReverse {
+/* line 72, additional_css.scss */
+.tutoReverse {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+/* line 75, additional_css.scss */
+.footer {
+  background-color: #002151;
 }
