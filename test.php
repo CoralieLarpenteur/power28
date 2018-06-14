@@ -3,31 +3,33 @@
   <head>
     <title></title>
     <?php require_once 'tools/head.php'; ?>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
   </head>
   <body>
 
-    <h1>cette page permet de tester le code avant de l'incorperer au site</h1>
-    <?php $prix=1200 ?>
 
-    Checkbox: <input type="checkbox" id="myCheck" onclick="myFunction()">
+<script>
 
-    <p id="demo"></p>
+  var WindowsSize = window.innerWidth;
 
-    <script>
-    function myFunction() {
-        var x = document.getElementById("myCheck").checked;
-        document.getElementById("demo").innerHTML = x;
-        if (x == true) {
-          document.getElementById("demo").innerHTML = <?php echo $prix ?> + 45;
-        }
-        else {
-          document.getElementById("demo").innerHTML = <?php echo $prix ?> + 0;
-        }
-    }
-    </script>
+  if (WindowsSize  < 991.98 ){
+    document.getElementById('logoFooterTel').style.display='block';
+    document.getElementById('logoFooterPc').style.display='none';
+  }else {
+    document.getElementById('logoFooterPc').style.display='block';
+    document.getElementById('logoFooterTel').style.display='none';
+  }
+</script>
 
 
 
-      <?php require_once 'tools/footer.php'; ?>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
   </body>
 </html>

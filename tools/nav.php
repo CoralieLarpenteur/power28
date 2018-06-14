@@ -19,15 +19,21 @@
         <a class="nav-link" href="index.php?page=FAQ">FAQ</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        <!--<?php echo $_SESSION['name'] ?>-->mon compte
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="index.php?page=admin">admin</a>
-          <a class="dropdown-item" href="index.php?page=account">mon compte</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="index.php?page=index&action=signout">déconection</a>
-        </div>
+        <?php if (isset($_SESSION['name'])): ?>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <?php echo $_SESSION['name'] ?>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <?php if ($_SESSION['is_admin'] == 1): ?>
+              <a class="dropdown-item" href="index.php?page=admin">admin</a>
+            <?php endif; ?>
+            <a class="dropdown-item" href="index.php?page=account">mon compte</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="index.php?page=index&action=signout">déconection</a>
+          </div>
+        <?php else: ?>
+          <a class="nav-link" href="index.php?page=login">connection</a>
+        <?php endif; ?>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="index.php?page=panier">panier</a>

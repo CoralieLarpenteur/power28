@@ -108,3 +108,26 @@ a, button, a:hover {
 .footer {
   background-color: #002151;
 }
+
+/* line 79, additional_css.scss */
+.line {
+  background-color: #FFFFFF;
+  height: 1px;
+}
+
+/* line 83, additional_css.scss */
+.map1 {
+  height: 500px;
+  width: 100%;
+}
+
+/* line 87, additional_css.scss */
+.map2 {
+  height: 200px;
+  width: 100%;
+}
+
+/* line 91, additional_css.scss */
+.link:hover {
+  text-decoration: underline;
+}

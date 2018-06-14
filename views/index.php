@@ -92,22 +92,14 @@
         <H5 class="dark_bleu">visualitaion rapide des produits et des commandes</H5>
       </div>
     </div>
-    <div class="row noMargin justify-content-center" style="margin-top:30px;">
-      <div class="col-lg-4 col-md-12 justify" style="padding:0px 100px 0px 100px">
-        <img src="assets/img/logo-carefour.png" alt="logo carefour" style="display:inline; width:70px">
-        <h3 style="display:inline">commentaire n°1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis efficitur ligula, vel ultricies ante. Pellentesque a nisl eu ipsum fermentum imperdiet at vel nulla. Proin blandit et elit sit amet tempor. Pellentesque efficitur volutpat vehicula. Nullam a dui vel magna placerat euismod.</p>
-      </div>
-      <div class="col-lg-4 col-md-12 justify" style="padding:0px 100px 0px 100px">
-        <img src="assets/img/logo-carefour.png" alt="logo carefour" style="display:inline; width:70px">
-        <h3 style="display:inline">commentaire n°2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis efficitur ligula, vel ultricies ante. Pellentesque a nisl eu ipsum fermentum imperdiet at vel nulla.</p>
-      </div>
-      <div class="col-lg-4 col-md-12 justify" style="padding:0px 100px 0px 100px">
-        <img src="assets/img/logo-carefour.png" alt="logo carefour" style="display:inline; width:70px">
-        <h3 style="display:inline">commentaire n°3</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis efficitur ligula, vel ultricies ante. Pellentesque a nisl eu ipsum fermentum imperdiet at vel nulla. Proin blandit et elit sit amet tempor. </p>
-      </div>
+    <div class="row noMargin" style="margin-top:30px;">
+      <?php foreach ($comments as $key => $comment): ?>
+        <div class="col-lg-4 col-md-12 justify" style="padding:0px 100px 0px 100px">
+          <img src="assets/img/logo-carefour.png" alt="logo carefour" style="display:inline; width:70px">
+          <h3 style="display:inline"><?php echo $comment['user_id']; ?></h3>
+          <p><?php echo $comment['comment']; ?></p>
+        </div>
+      <?php endforeach; ?>
     </div>
     <div class="row noMargin justify-content-center">
       <div class="col-3">
